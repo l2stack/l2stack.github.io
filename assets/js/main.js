@@ -2,6 +2,8 @@ write(element=document.getElementById('heading'))
 write(element=document.getElementById('noice'), undefined, time=10)
 write(element=document.getElementById('noice-1'), undefined, time=50)
 
+document.getElementById('copyright-footer').innerHTML = 'Copyright © ' + new Date().getFullYear() + ' l2stack'
+
 
 /**
  * Write/Re-write text content
