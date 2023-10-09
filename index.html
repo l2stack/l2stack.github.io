@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>L2STACK</title>
+    <title>L2STACK - STATIC PAGE</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/aos.min.css">
     <link rel="stylesheet" href="assets/css/styles.css">
@@ -27,7 +27,7 @@
                             </svg></a></li>
                     <li class="nav-item"><a class="nav-link" data-bs-toggle="modal" data-bs-target="#minecraft-modal">Minecraft</a></li>
                     <li class="nav-item"><a class="nav-link" href="https://discord.gg/h6RUSuTMt3" target="_blank">Discord</a></li>
-                    <li class="nav-item"><a class="nav-link" href="https://github.com/l2stack/champpicker/releases/" target="_blank">ChampPicker</a></li>
+                    <li class="nav-item"><a class="nav-link" data-bs-toggle="modal" data-bs-target="#releases-modal">Releases App</a></li>
                     <li class="nav-item"><a class="nav-link" href="https://github.com/l2stack" target="_blank">Github</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">About</a></li>
                 </ul>
@@ -36,9 +36,9 @@
     </nav>
     <div class="col text-center" style="margin-top: 150px;margin-bottom: 200px;">
         <picture><img class="rounded-circle" data-aos="zoom-out" data-aos-delay="300" data-aos-once="true" src="assets/img/Untitled.png" style="width: 220px;height: 220px;"></picture>
-        <h1 class="font-monospace text-center" id="heading" style="color: rgb(255,255,255);margin-top: 15px;">L2STACK</h1>
+        <h1 class="font-monospace text-center rainbow-heading" id="heading" style="/*background-position: 0%;*/margin-top: 15px;">L2STACK</h1>
         <p class="font-monospace" id="noice" style="color: rgb(255,255,255);opacity: 1;filter: hue-rotate(0deg) invert(0%) saturate(0%);backdrop-filter: blur(0px);-webkit-backdrop-filter: blur(0px);text-shadow: 0px 0px 6px;width: 60%;margin-left: 20%;"><span style="color: rgb(232, 234, 237); background-color: transparent;">Hello! I'm l2stack a bukkit, web, java developer and I'm also a minecraft player. Do you want to play minecraft with me?. Click [Minecraft] in the nav bar and download the game launcher.</span></p>
-        <p class="font-monospace" data-aos="zoom-out" data-aos-once="true" id="noice-1" style="color: rgb(255,255,255);opacity: 1;filter: hue-rotate(0deg) invert(0%) saturate(0%);backdrop-filter: blur(0px);-webkit-backdrop-filter: blur(0px);text-shadow: 0px 0px 6px;margin-left: 15%;margin-right: 15%;"><span style="color: rgb(232, 234, 237); background-color: transparent;">If you do not have an account on my server you need to register first. Please click the [Register] button below.</span></p><button class="btn btn-primary rainbow-border" id="register" type="button" style="text-shadow: 0px 0px 8px;background: rgba(0,0,0,0);border-radius: 0px;">Register</button><button class="btn btn-primary rainbow-border1" id="donate" type="button" style="text-shadow: 0px 0px 8px;background: rgba(0,0,0,0);border-radius: 0px;margin-left: 5px;" data-bs-toggle="modal" data-bs-target="#donate-modal">Donate</button>
+        <p class="font-monospace" data-aos="zoom-out" data-aos-once="true" id="noice-1" style="color: rgb(255,255,255);opacity: 1;filter: hue-rotate(0deg) invert(0%) saturate(0%);backdrop-filter: blur(0px);-webkit-backdrop-filter: blur(0px);text-shadow: 0px 0px 6px;margin-left: 15%;margin-right: 15%;"><span style="color: rgb(232, 234, 237); background-color: transparent;">If you do not have an account on my server you need to register first. Please click the [Register] button below.</span></p><button class="btn btn-primary rainbow-border" id="register" type="button" style="text-shadow: 0px 0px 8px;background: rgba(0,0,0,0);border-radius: 0px;" data-bs-toggle="modal" data-bs-target="#register-modal">Register</button><button class="btn btn-primary rainbow-border1" id="donate" type="button" style="text-shadow: 0px 0px 8px;background: rgba(0,0,0,0);border-radius: 0px;margin-left: 5px;" data-bs-toggle="modal" data-bs-target="#donate-modal">Donate</button>
     </div>
     <footer class="text-center" style="color: rgb(255,255,255);margin-top: 100px;">
         <div class="col" style="margin-bottom: 50px50px;">
@@ -69,6 +69,34 @@
             </div>
         </div>
     </div>
+    <div class="modal fade font-monospace" role="dialog" tabindex="-1" id="register-modal" style="background: rgba(0,0,0,0.4);">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header" style="background: #000000;border-width: 0px;color: rgb(255,255,255);">
+                    <h4 class="modal-title">Register</h4><button class="btn-close" type="button" aria-label="Close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body" style="background: #000000;color: rgb(255,255,255);">
+                    <p style="font-weight: bold;"><span style="color: rgb(232, 234, 237);">Update...</span></p>
+                    <p style="font-style: italic;"><span style="color: rgb(232, 234, 237);">Nothing...</span></p>
+                </div>
+                <div class="modal-footer" style="border-top-left-radius: 0px;border-top-right-radius: 0px;background: #000000;border-width: 0px;"><button class="btn btn-light" type="button" data-bs-dismiss="modal" style="color: rgb(255,255,255);background: rgba(248,249,250,0);border-top-left-radius: 0px;border-top-right-radius: 0px;border-bottom-right-radius: 0px;border-bottom-left-radius: 0px;border-width: 1px;">Close</button></div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade font-monospace" role="dialog" tabindex="-1" id="releases-modal" style="background: rgba(0,0,0,0.4);">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header" style="background: #000000;border-width: 0px;color: rgb(255,255,255);">
+                    <h4 class="modal-title">Releases Application</h4><button class="btn-close" type="button" aria-label="Close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body" style="background: #000000;color: rgb(255,255,255);">
+                    <p style="font-weight: bold;"><span style="color: rgb(232, 234, 237);">Github links</span></p>
+                    <p style="font-style: italic;"><span style="color: rgb(232, 234, 237);">League Of Legends tool (ChampPicker)</span><br>Releases:&nbsp;<a href="https://github.com/l2stack/champpicker/releases/" target="_blank">Click me (goto releases page)</a></p>
+                </div>
+                <div class="modal-footer" style="border-top-left-radius: 0px;border-top-right-radius: 0px;background: #000000;border-width: 0px;"><button class="btn btn-light" type="button" data-bs-dismiss="modal" style="color: rgb(255,255,255);background: rgba(248,249,250,0);border-top-left-radius: 0px;border-top-right-radius: 0px;border-bottom-right-radius: 0px;border-bottom-left-radius: 0px;border-width: 1px;">Close</button></div>
+            </div>
+        </div>
+    </div>
     <div class="modal fade font-monospace" role="dialog" tabindex="-1" id="minecraft-modal" style="background: rgba(0,0,0,0.4);">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -77,9 +105,9 @@
                 </div>
                 <div class="modal-body" style="background: #000000;color: rgb(255,255,255);">
                     <p style="font-weight: bold;"><span style="color: rgb(232, 234, 237);">Ip address (ip connect)</span></p>
-                    <p style="font-style: italic;"><span style="color: rgb(232, 234, 237);">Server 1 -&nbsp;</span> Update...<br><span style="color: rgb(232, 234, 237);">Server 2 - Update...</span><br><span style="color: rgb(232, 234, 237);">Server 3 - Update...</span></p>
+                    <p style="font-style: italic;"><span style="color: rgb(232, 234, 237);">Server 1 - Update...</span><br><span style="color: rgb(232, 234, 237);">Server 2 - Update...</span><br><span style="color: rgb(232, 234, 237);">Server 3 - Update...</span></p>
                     <p style="font-weight: bold;"><span style="color: rgb(232, 234, 237);">Mod pack (auto install mod pack)</span></p>
-                    <p style="font-style: italic;"><span style="color: rgb(232, 234, 237);">Server 1 -&nbsp;</span><a href="https://github.com/l2stack/vampirecraft-mod-installer/releases/tag/SMI" target="_blank">Click for download</a><br><span style="color: rgb(232, 234, 237);">Server 2 - Update...</span><br><span style="color: rgb(232, 234, 237);">Server 3 - Update...</span></p>
+                    <p style="font-style: italic;"><span style="color: rgb(232, 234, 237);">Server 1 - Update...</span><br><span style="color: rgb(232, 234, 237);">Server 2 - Update...</span><br><span style="color: rgb(232, 234, 237);">Server 3 - Update...</span></p>
                 </div>
                 <div class="modal-footer" style="border-top-left-radius: 0px;border-top-right-radius: 0px;background: #000000;border-width: 0px;"><button class="btn btn-light" type="button" data-bs-dismiss="modal" style="color: rgb(255,255,255);background: rgba(248,249,250,0);border-top-left-radius: 0px;border-top-right-radius: 0px;border-bottom-right-radius: 0px;border-bottom-left-radius: 0px;border-width: 1px;">Close</button></div>
             </div>
