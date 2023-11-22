@@ -11,11 +11,11 @@
 
 <body id="body-page" style="background: rgba(0,0,0,0.8);">
     <nav class="navbar navbar-expand-md">
-        <div class="container-fluid"><a class="navbar-brand font-monospace" style="font-weight: bold;color: #ffffff;">L2STACK |&nbsp;</a><button data-bs-toggle="collapse" class="navbar-toggler font-monospace" data-bs-target="#navcol-1" style="color: #ffffff;"><span class="font-monospace visually-hidden" style="color: #ffffff;">Toggle navigation</span><span class="navbar-toggler-icon font-monospace" style="color: #ffffff;"></span></button>
-            <div class="collapse navbar-collapse font-monospace" id="navcol-1" style="justify-content: right;color: #ffffff;"><button class="btn btn-primary" type="button" style="background: rgba(0,0,0,0);border-style: none;color: rgba(255,255,255,0.65);">Projects</button>
+        <div class="container-fluid"><a class="navbar-brand font-monospace" style="font-weight: bold;color: #ffffff;">L2STACK |</a><a class="navbar-brand font-monospace" id="web-heading" style="font-weight: bold;color: #ffffff;"></a><button data-bs-toggle="collapse" class="navbar-toggler font-monospace" data-bs-target="#navcol-1" style="color: #ffffff;"><span class="font-monospace visually-hidden" style="color: #ffffff;">Toggle navigation</span><span class="navbar-toggler-icon font-monospace" style="color: #ffffff;"></span></button>
+            <div class="collapse navbar-collapse font-monospace" id="navcol-1" style="justify-content: right;color: #ffffff;"><button class="btn btn-primary" type="button" style="background: rgba(0,0,0,0);border-style: none;color: rgba(255,255,255,0.65);" onclick="viewRepo();">Projects</button>
                 <ul class="navbar-nav font-monospace" style="color: #ffffff;">
                     <li class="nav-item dropdown"><a class="dropdown-toggle nav-link font-monospace" aria-expanded="false" data-bs-toggle="dropdown" style="color: rgba(255,255,255,0.65);">Discord</a>
-                        <div class="dropdown-menu" style="background: rgba(255,255,255,0.05);border-top-left-radius: 0px;border-top-right-radius: 0px;border-bottom-right-radius: 0px;border-bottom-left-radius: 0px;"><a class="dropdown-item font-monospace" style="color: rgb(171,171,171);">Profile</a><a class="dropdown-item font-monospace" style="color: rgb(171,171,171);">Server</a></div>
+                        <div class="dropdown-menu" style="background: rgba(255,255,255,0.05);border-top-left-radius: 0px;border-top-right-radius: 0px;border-bottom-right-radius: 0px;border-bottom-left-radius: 0px;"><a class="dropdown-item font-monospace" style="color: rgb(171,171,171);" href="#profile">Profile</a><a class="dropdown-item font-monospace" style="color: rgb(171,171,171);" href="https://discord.com/invite/h6RUSuTMt3" target="_blank">Server</a></div>
                     </li>
                     <li class="nav-item font-monospace" style="color: #ffffff;"><a class="nav-link font-monospace" href="https://github.com/l2stack" style="color: #ffffff;border-width: 1px;border-style: solid;box-shadow: 0px 0px 3px;" target="_blank" data-bs-target="https://github.com/l2stack">Github&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-github">
                                 <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path>
@@ -26,7 +26,7 @@
     </nav>
     <div class="container" style="margin-top: 50px;">
         <div class="row">
-            <div class="col-md-4 col-xl-4" style="padding-right: 0px;padding-left: 0px;background: hsl(223,6.7%,20.6%);border-top-left-radius: 12px;border-top-right-radius: 12px;border-bottom-right-radius: 12px;border-bottom-left-radius: 12px;position: relative;box-shadow: 0px 0px 10px 3px rgb(255,255,255);margin-bottom: 50px;">
+            <div class="col-md-4 col-xl-4" id="profile" style="padding-right: 0px;padding-left: 0px;background: hsl(223,6.7%,20.6%);border-top-left-radius: 12px;border-top-right-radius: 12px;border-bottom-right-radius: 12px;border-bottom-left-radius: 12px;position: relative;box-shadow: 0px 0px 10px 3px rgb(255,255,255);margin-bottom: 50px;">
                 <div style="margin-top: 80px;margin-left: 20px;position: absolute;"><img class="rounded-circle" style="position: absolute;width: 90px;border: 5px solid hsl(223,6.7%,20.6%);height: 90px;" src="assets/img/avt.png">
                     <div style="height: 20px;background: #00ff19;width: 20px;position: absolute;margin-top: 65px;margin-left: 65px;border-top-left-radius: 50%;border-top-right-radius: 50%;border-bottom-right-radius: 50%;border-bottom-left-radius: 50%;border-width: 4px;border-style: solid;"></div>
                 </div>
@@ -57,12 +57,17 @@
                     <h6 style="color: rgb(255,255,255);padding-left: 15px;margin-bottom: 0px;margin-top: 8px;">JOIN DISCORD FROM</h6>
                     <p style="color: rgb(255,255,255);padding-left: 15px;margin-bottom: 8px;padding-bottom: initial;">25 th2, 2021</p>
                     <div style="height: 1px;background: #8f8f8f;margin-left: 15px;margin-right: 15px;"></div>
-                    <p id="copy-user-id" style="color: rgb(255,255,255);padding-left: 15px;margin-bottom: 8px;padding-bottom: 15px;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-discord">
-                            <path d="M13.545 2.907a13.227 13.227 0 0 0-3.257-1.011.05.05 0 0 0-.052.025c-.141.25-.297.577-.406.833a12.19 12.19 0 0 0-3.658 0 8.258 8.258 0 0 0-.412-.833.051.051 0 0 0-.052-.025c-1.125.194-2.22.534-3.257 1.011a.041.041 0 0 0-.021.018C.356 6.024-.213 9.047.066 12.032c.001.014.01.028.021.037a13.276 13.276 0 0 0 3.995 2.02.05.05 0 0 0 .056-.019c.308-.42.582-.863.818-1.329a.05.05 0 0 0-.01-.059.051.051 0 0 0-.018-.011 8.875 8.875 0 0 1-1.248-.595.05.05 0 0 1-.02-.066.051.051 0 0 1 .015-.019c.084-.063.168-.129.248-.195a.05.05 0 0 1 .051-.007c2.619 1.196 5.454 1.196 8.041 0a.052.052 0 0 1 .053.007c.08.066.164.132.248.195a.051.051 0 0 1-.004.085 8.254 8.254 0 0 1-1.249.594.05.05 0 0 0-.03.03.052.052 0 0 0 .003.041c.24.465.515.909.817 1.329a.05.05 0 0 0 .056.019 13.235 13.235 0 0 0 4.001-2.02.049.049 0 0 0 .021-.037c.334-3.451-.559-6.449-2.366-9.106a.034.034 0 0 0-.02-.019Zm-8.198 7.307c-.789 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.45.73 1.438 1.613 0 .888-.637 1.612-1.438 1.612Zm5.316 0c-.788 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.451.73 1.438 1.613 0 .888-.631 1.612-1.438 1.612Z"></path>
-                        </svg>&nbsp;Coppy user id</p>
+                    <form><input class="form-control" type="hidden" id="userid" name="userid" value="814402424563040286"><button class="btn btn-primary" type="button" style="background: transparent;border-style: none;padding-bottom: 15px;padding-top: 15px;padding-left: 18px;" data-clipboard-action="copy" data-clipboard-target="#userid"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-discord">
+                                <path d="M13.545 2.907a13.227 13.227 0 0 0-3.257-1.011.05.05 0 0 0-.052.025c-.141.25-.297.577-.406.833a12.19 12.19 0 0 0-3.658 0 8.258 8.258 0 0 0-.412-.833.051.051 0 0 0-.052-.025c-1.125.194-2.22.534-3.257 1.011a.041.041 0 0 0-.021.018C.356 6.024-.213 9.047.066 12.032c.001.014.01.028.021.037a13.276 13.276 0 0 0 3.995 2.02.05.05 0 0 0 .056-.019c.308-.42.582-.863.818-1.329a.05.05 0 0 0-.01-.059.051.051 0 0 0-.018-.011 8.875 8.875 0 0 1-1.248-.595.05.05 0 0 1-.02-.066.051.051 0 0 1 .015-.019c.084-.063.168-.129.248-.195a.05.05 0 0 1 .051-.007c2.619 1.196 5.454 1.196 8.041 0a.052.052 0 0 1 .053.007c.08.066.164.132.248.195a.051.051 0 0 1-.004.085 8.254 8.254 0 0 1-1.249.594.05.05 0 0 0-.03.03.052.052 0 0 0 .003.041c.24.465.515.909.817 1.329a.05.05 0 0 0 .056.019 13.235 13.235 0 0 0 4.001-2.02.049.049 0 0 0 .021-.037c.334-3.451-.559-6.449-2.366-9.106a.034.034 0 0 0-.02-.019Zm-8.198 7.307c-.789 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.45.73 1.438 1.613 0 .888-.637 1.612-1.438 1.612Zm5.316 0c-.788 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.451.73 1.438 1.613 0 .888-.631 1.612-1.438 1.612Z"></path>
+                            </svg>&nbsp; Coppy l2stack user id</button></form>
                 </div>
             </div>
-            <div class="col"></div>
+            <div class="col">
+                <div style="height: 120px;/*margin: -2px;*/display: flex;justify-content: center;align-items: center;"><img style="width: 120px;height: 120px;border-top-left-radius: 50%;border-top-right-radius: 50%;border-bottom-right-radius: 50%;border-bottom-left-radius: 50%;" src="assets/img/avt.png"></div>
+                <h2 class="font-monospace text-center" style="margin-top: 10px;color: rgb(255,255,255);text-shadow: 0px 0px 5px rgb(214,0,0);">L2STACK</h2>
+                <h5 class="font-monospace text-center" style="margin-top: 10px;color: rgb(255,255,255);text-shadow: 0px 0px 5px rgb(214,0,0);">This is just a static profile website<br>My simple way to share contact information.</h5>
+                <div style="display: flex;justify-content: center;align-items: center;margin-top: 20px;/*width: auto;*//*height: initial;*/"><img class="rounded-circle" src="assets/img/maingif.gif" width="50%" height="50%"></div>
+            </div>
         </div>
     </div>
     <footer>
@@ -91,7 +96,21 @@
             </div>
         </div>
     </footer>
+    <div class="modal fade" role="dialog" tabindex="-1" id="repositories-modal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Noice</h4><button class="btn-close" type="button" aria-label="Close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Goto github&nbsp;repositories page?</p>
+                </div>
+                <div class="modal-footer"><button class="btn btn-light" type="button" data-bs-dismiss="modal">Close</button><a class="btn btn-light" role="button" style="background: rgb(0,128,255);color: rgb(255,255,255);" href="https://github.com/l2stack?tab=repositories" target="_blank">Go</a></div>
+            </div>
+        </div>
+    </div>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.js"></script>
     <script src="assets/js/main.js"></script>
 </body>
 
