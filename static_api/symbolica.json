@@ -1,6 +1,6 @@
 {
-    "message": "From The Fog Launcher v1.0.0.7",
-    "game-version": "forge:1.20.1-latest",
+    "message": "Symbolica Launcher v1.0.0.7",
+    "game-version": "fabric:1.20.1:0.15.3",
     "version": "v1.0.0.7",
-    "resource": "https://mods.l2stack.click/ftf.zip"
+    "resource": "https://mods.l2stack.click/pack.zip"
 }
