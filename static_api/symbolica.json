@@ -1,6 +1,6 @@
 {
-    "message": "Symbolica Launcher v1.0.0.7",
-    "game-version": "fabric:1.20.1:0.15.3",
-    "version": "v1.0.0.7",
-    "resource": "https://mods.l2stack.click/pack.zip"
+    "message": "Symbolica Launcher v1.0.0.8",
+    "game-version": "forge:1.20.1:47.2.20",
+    "version": "v1.0.0.8",
+    "resource": "https://mods.l2stack.click/ftf.zip"
 }
