@@ -1,0 +1,14 @@
+{
+    "version": "1.0",
+    "endpoint": {
+        "account": {
+            "login": "",
+            "register": "",
+            "update_information": "",
+            "request": "",
+            "information": ""
+        },
+        "subject": {},
+        "class": {}
+    }
+}
