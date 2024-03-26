@@ -15,7 +15,8 @@ document.getElementById('symbolica-register-btn').addEventListener('click', func
         headers: {
             'Content-Type': 'application/json'
         },
-        body: body
+        body: body,
+        mode: 'no-cors'
     })
     .then(function(response) {
         return response.json();
