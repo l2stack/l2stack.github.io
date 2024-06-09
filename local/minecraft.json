@@ -1,7 +1,7 @@
 {
   "data": "https://cdn.discordapp.com/attachments/1243737893294309440/1249350007828644000/GameData.zip?ex=6666fb5d&is=6665a9dd&hm=8d51319256ba707f399ef207c4d04a2d092737ebbf134091b9b5614b1ed284d8&",
   "game_version": "1.20.6",
-  "version": 1,
+  "version": "1.0.1-snapshot",
   "min_memory": 2,
   "loader": "fabric",
   "old_version": "1.20.4"
