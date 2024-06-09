@@ -1,0 +1,8 @@
+{
+  "data": "",
+  "game_version": "1.20.6",
+  "version": 1,
+  "min_memory": 2,
+  "loader": "fabric",
+  "old_version": "1.20.4"
+}
